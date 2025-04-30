@@ -1,6 +1,14 @@
-img, p, h1, h2, .divider {
+h1 {
+    font-size: 40px;
     width: 100%;
-    max-width: 640px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img, p, h2, h3, h6, h7, .divider {
+    width: 100%;
+    max-width: 840px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -11,28 +19,33 @@ img {
 }
 
 p {
-    font-size: 18px;
-    line-height: 1.4;
+    font-size: 20px;
+    line-height: 1.5;
     font-family: "Crimson Text";
+    color:white
 }
 
-h1, h2 {
+h1, h2, h3, h6, h7 {
     font-family: "Roboto";
+    color:white
 }
 
 .divider {
-    height: 2px;
-    background-color: #0868ac;
+    height: 8px;
+    background-color: #0b426a;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .name {
-    height: 20px;
-    color: blue;
+    font-size: 25px;
+    height: 30px;
+    color: white;
 }
 
-.bigimage {
-    width: 100%;
-    max-width: 300px;
+.hero {
+    height: 100vh;
+    background-image: url("images/faang1.jpg");
+    background-size: cover;
+    background-position: center;
 }
