@@ -1,12 +1,23 @@
 h1 {
-    font-size: 40px;
+    font-size: 40pt;
     width: 100%;
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
+    text-align: center; /* center the text */
+    color: white;
 }
 
-img, p, h2, h3, h6, h7, .divider {
+h1 .subtitle {
+    display: block;
+    font-size: 30pt; 
+    max-width: 900px; 
+    margin-left: auto;
+    margin-right: auto;
+    color: white; 
+}
+
+img, p, h2, .divider {
     width: 100%;
     max-width: 840px;
     margin-left: auto;
@@ -25,9 +36,13 @@ p {
     color:white
 }
 
-h1, h2, h3, h6, h7 {
+h1, h2 {
     font-family: "Roboto";
     color:white
+}
+
+h2 {
+    font-size: 25pt
 }
 
 .divider {
@@ -41,6 +56,7 @@ h1, h2, h3, h6, h7 {
     font-size: 25px;
     height: 30px;
     color: white;
+    text-align: center;
 }
 
 .hero {
